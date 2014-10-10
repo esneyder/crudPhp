@@ -1,0 +1,5 @@
+create table if not exists persona(cedula varchar(20) not null,
+									nombre varchar(20) not null,
+									apellido varchar(20) not null,
+									correo varchar(20) not null unique,
+								primary key(cedula))";
